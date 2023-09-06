@@ -48,6 +48,7 @@ nav {
   align-items: center;
   height: 8vh;
   background-color: royalblue;
+  
 
   & a {
     color: white;
