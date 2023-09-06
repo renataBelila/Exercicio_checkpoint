@@ -11,7 +11,28 @@ import EditarProduto from './routes/EditarProdutos.jsx'
 
 
 
-const router = createBrowserRouter([])
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    errorElement: <Error/>,
+    children:[
+      {
+        path: "/", 
+        element: <Home/>
+      },
+      {
+        path: "/produtos",
+        element: <Produtos/>
+      },
+      {
+        path: "/produtos/editar:id",
+        element: <EditarProduto/>
+      }
+    ]
+  }
+
+])
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
