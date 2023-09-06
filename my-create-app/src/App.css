@@ -43,7 +43,7 @@
 
 nav {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   justify-content: center;
   align-items: center;
   height: 8vh;
@@ -58,7 +58,7 @@ nav {
 
 main {
   display: flex;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -67,11 +67,12 @@ main {
 
 footer {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
   height: 5vh;
   background-color: darkblue;
+  color: white;
 }
 
 
